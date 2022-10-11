@@ -17,7 +17,8 @@ export default function Routes() {
         initialRouteName="Start"
         screenOptions={{ headerShown: false }}
       >
-        <Stack.Screen name="Start" component={Pages.PageAnimatedOne} />
+        {/* <Stack.Screen name="Start" component={Pages.PageAnimatedOne} /> */}
+        <Stack.Screen name="Start" component={Pages.SplashScreenTwo} />
       </Stack.Navigator>
     </NavigationContainer>
   )
